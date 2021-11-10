@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AppFlower/app/src/main/res/drawable/botron.xml" value="0.2703125" />
+        <entry key="..\:/AppFlower/app/src/main/res/drawable/btnthanhtoan.xml" value="0.2703125" />
         <entry key="..\:/AppFlower/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/AppFlower/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/AppFlower/app/src/main/res/layout/activity_thanhtoan.xml" value="0.25416666666666665" />
+        <entry key="..\:/AppFlower/app/src/main/res/layout/thanhtoan2.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
