@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DAD5D3"
-    app:layoutDescription="@xml/activity_main_scene2"
+    app:layoutDescription="@xml/activity_main2"
     tools:context=".MainActivity2">
 
     <View
@@ -183,17 +183,7 @@
         tools:layout_conversion_absoluteWidth="0dp"
         tools:layout_editor_absoluteY="633dp"></TextView>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="408dp"
-        android:layout_width="413dp"
-        android:layout_height="169dp"
-        android:layout_height="158dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/aaa19" />
 
     <View
         android:layout_width="139dp"
@@ -295,4 +285,20 @@
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="@+id/tvImg3"
         tools:layout_editor_absoluteY="589dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="412dp"
+        android:layout_height="171dp"
+        app:srcCompat="@drawable/aaa19"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-13dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
