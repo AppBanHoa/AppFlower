@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="395dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996"
+        app:srcCompat="@drawable/img_2"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btnvetrangchu"
+        android:layout_width="299dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btnthanhtoan"
+        android:text="Quay về trang chủ"
+        android:textStyle="bold"
+        android:textColor="#ECE227"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#F4EEEE"
+       />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="364dp"
+        android:layout_height="167dp"
+        android:gravity="center_horizontal"
+        android:text="Cảm ơn quý khách đã mua hàng ở Sunday+Sage"
+        android:textColor="#ECB617"
+        android:textSize="90px"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnvetrangchu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

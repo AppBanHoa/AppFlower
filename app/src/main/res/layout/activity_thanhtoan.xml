@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="314dp"
+        android:layout_height="217dp"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="314dp"
+        android:layout_height="102dp"
+        android:gravity="center"
+        android:text="HE EMBER SMALL ARAGEMENT"
+        android:textSize="70px"
+        android:textColor="#EDD898"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="107dp"
+        android:layout_height="54dp"
+        android:gravity="center_horizontal"
+        android:text="Đơn giá"
+        android:textSize="60px"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/dongia"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:text="Số lượng"
+        android:textSize="60px"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/tru"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.851" />
+
+    <TextView
+        android:id="@+id/dongia"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="68dp"
+        android:gravity="center"
+        android:text="1.000.000Đ"
+        android:textColor="@color/purple_500"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <TextView
+        android:id="@+id/soluong"
+        android:layout_width="88dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/purple_500"
+        android:textSize="60px"
+        app:layout_constraintBottom_toTopOf="@+id/dongia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/tru"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:text="+"
+        android:textSize="50px"
+        android:background="@drawable/botron"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/dongia"
+        tools:layout_editor_absoluteX="135dp" />
+
+    <Button
+        android:id="@+id/cong"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:text="-"
+        android:textSize="50px"
+        android:background="@drawable/botron"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/dongia"
+        tools:layout_editor_absoluteX="295dp" />
+
+    <TextView
+        android:id="@+id/diachi"
+        android:layout_width="338dp"
+        android:layout_height="79dp"
+        android:gravity="center_horizontal"
+        android:text="12 Nguyen Van Bao, phuong 4, Go Vap"
+        android:textSize="50px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/thanhtoan"
+        android:layout_width="137dp"
+        android:layout_height="51dp"
+        android:background="@drawable/btnthanhtoan"
+        android:text="Thanh toán"
+        android:textColor="#ECE227"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diachi"
+        app:layout_constraintVertical_bias="0.542" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
