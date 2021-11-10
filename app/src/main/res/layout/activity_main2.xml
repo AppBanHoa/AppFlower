@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD5D3"
+    app:layoutDescription="@xml/activity_main_scene2"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="139dp"
+        android:layout_height="8dp"
+        android:background="#EEB960"
+        app:layout_constraintEnd_toStartOf="@+id/tvImg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="116dp"
+        android:layout_height="8dp"
+        android:background="#EEB960"
+        app:layout_constraintEnd_toStartOf="@+id/tvImg3434"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/a4"
+        android:transitionName="fade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/img2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"></ImageView>
+
+    <TextView
+
+        android:id="@+id/tvImg1"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="52dp"
+        android:text="“THE HONEY B” MINI ARRANGEMENT"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/img1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/img1"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"></TextView>
+
+    <ImageView
+
+
+
+        android:id="@+id/img2"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/a5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_editor_absoluteY="196dp"></ImageView>
+
+    <TextView
+        android:id="@+id/tvImg2"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+
+        android:text="“THE HENNA” LARGE ARRANGEMENT"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/img2"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="@+id/img2"
+        app:layout_constraintTop_toBottomOf="@+id/img2"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"></TextView>
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/a7"
+        android:transitionName="fade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/img1"
+        app:layout_constraintTop_toBottomOf="@+id/tvImg1"
+        app:layout_constraintVertical_bias="0.041"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"></ImageView>
+
+    <TextView
+        android:id="@+id/tvImg3"
+        android:layout_width="152dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:text="THE HENNA” LARGE ARRANGEMENT"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/img3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/img3"
+        app:layout_constraintTop_toBottomOf="@+id/img3"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"></TextView>
+
+    <ImageView
+
+        android:id="@+id/img4"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/a6"
+        app:layout_constraintEnd_toEndOf="@+id/img2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvImg2"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"/>
+
+
+    <TextView
+        android:id="@+id/tvImg4"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="4dp"
+        android:text="“THE OLLIE” MEDIUM ARRANGEMENT"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/img4"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="@+id/img4"
+        app:layout_constraintTop_toBottomOf="@+id/img4"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"></TextView>
+
+    <TextView
+
+        android:id="@+id/tvImg3434"
+        android:layout_width="148dp"
+        android:layout_height="38dp"
+        android:text="Các mặt hàng"
+        android:textColor="#765113"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_editor_absoluteY="158dp"></TextView>
+
+    <TextView
+
+        android:id="@+id/tvImg"
+        android:layout_width="114dp"
+        android:layout_height="47dp"
+        android:text="Follow us:"
+        android:textColor="#765113"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_editor_absoluteY="633dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="408dp"
+        android:layout_width="413dp"
+        android:layout_height="169dp"
+        android:layout_height="158dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aaa19" />
+
+    <View
+        android:layout_width="139dp"
+        android:layout_height="8dp"
+        android:background="#EEB960"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvImg"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="116dp"
+        android:layout_height="8dp"
+        android:background="#EEB960"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvImg3434"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/a10" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="4dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvImg"
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/a8"
+        tools:layout_editor_absoluteX="182dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="60dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/tvImg"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/a9" />
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:text="Mua"
+        app:layout_constraintEnd_toEndOf="@+id/tvImg2"
+        app:layout_constraintStart_toStartOf="@+id/tvImg2"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:text="Mua"
+        app:layout_constraintEnd_toEndOf="@+id/tvImg1"
+        app:layout_constraintStart_toStartOf="@+id/tvImg1"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Button
+
+        android:id="@+id/button3"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:text="Mua"
+        app:layout_constraintEnd_toEndOf="@+id/tvImg4"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="@+id/tvImg4"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:text="Mua"
+        app:layout_constraintEnd_toEndOf="@+id/tvImg3"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/tvImg3"
+        tools:layout_editor_absoluteY="589dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
