@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
     private void updateUI(GoogleSignInAccount account) {
         if(account != null){
             Toast.makeText(this,"You Signed In successfully",Toast.LENGTH_LONG).show();
-           startActivity(new Intent(this,MainActivity2.class));
+           startActivity(new Intent(this,ListFlowers.class));
 
         }else {
             Toast.makeText(this,"You Didnt signed in",Toast.LENGTH_LONG).show();
