@@ -17,7 +17,7 @@ public class MainThanhToan2 extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myInt= new Intent(getApplicationContext(), MainActivity2.class);
+                Intent myInt= new Intent(getApplicationContext(), ListFlowers.class);
                 startActivity(myInt);
             }
         });

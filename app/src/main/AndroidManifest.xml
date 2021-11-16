@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppOrderFlowers">
         <activity
-            android:name=".MainActivity2"
+            android:name=".ListFlowers"
             android:exported="false" />
         <activity
             android:name=".MainThanhToan"
