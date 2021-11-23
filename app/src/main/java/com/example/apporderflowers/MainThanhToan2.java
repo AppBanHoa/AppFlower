@@ -21,5 +21,10 @@ public class MainThanhToan2 extends AppCompatActivity {
                 startActivity(myInt);
             }
         });
+        findViewById(R.id.btn_map).setOnClickListener(v -> viewMap());
+    }
+
+    private void viewMap() {
+        startActivity(new Intent(this,MainGooglemap.class));
     }
 }
