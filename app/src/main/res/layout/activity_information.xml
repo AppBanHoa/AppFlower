@@ -13,77 +13,58 @@
         android:id="@+id/imageView"
         android:layout_width="190dp"
         android:layout_height="181dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027"
         app:srcCompat="@drawable/img3tt" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="195dp"
         android:layout_height="159dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="36dp"
 
-        app:layout_constraintVertical_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/img1tt" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="188dp"
-        android:layout_height="191dp"
+        android:layout_width="196dp"
+        android:layout_height="204dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97"
         app:srcCompat="@drawable/img2tt" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="183dp"
-        android:layout_height="164dp"
+        android:layout_width="184dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="16dp"
         android:text="Chi Thủy tiên là một chi gồm phần lớn là các loài thực vật lâu năm thuộc họ Họ Loa kèn đỏ có những bông hoa bắt mắt với sáu cánh đài giống cánh hoa được bao quanh bởi bao hoa hình chén hay kèn trumpet./"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.96"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="172dp"
-        android:layout_height="158dp"
+        android:layout_width="180dp"
+        android:layout_height="134dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="40dp"
         android:text="Hồng là tên gọi chung cho các loài thực vật có hoa dạng cây bụi hoặc cây leo lâu năm thuộc chi Rosa, họ Rosaceae, với hơn 100 loài với màu hoa đa dạng, phân bố từ miền ôn đới đến nhiệt đới.
 
 /"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.962"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="199dp"
-        android:layout_height="162dp"
+        android:layout_width="182dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="56dp"
         android:text=" Cúc họa mi
 Hoa cúc họa mi có màu trắng, cánh nhỏ mỏng manh và thường nở vào mùa đông, khi những cơn gió lạnh bắt đầu tràn về. Cúc họa mi có vẻ đẹp thanh cao, thuần khiết
 "
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.995"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

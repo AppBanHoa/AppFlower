@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="520dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="637dp"
+        android:layout_height="197dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_1" />
 
     <ImageView
@@ -42,20 +42,20 @@
         app:rippleColor="#F4EEEE"
        />
 
+
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="364dp"
-        android:layout_height="167dp"
+        android:layout_width="373dp"
+        android:layout_height="125dp"
         android:gravity="center_horizontal"
         android:text="Cảm ơn quý khách đã mua hàng ở Sunday+Sage"
         android:textColor="#ECB617"
         android:textSize="90px"
         android:textStyle="italic|bold"
-        app:layout_constraintBottom_toTopOf="@+id/btnvetrangchu"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
 
     <Button
         android:id="@+id/btn_map"
